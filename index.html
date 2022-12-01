@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSV Table</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="csv-container">
+        <form>
+          <textarea
+            name=""
+            id="csv-data"
+            cols="30"
+            rows="10"
+            placeholder="write csv"
+          ></textarea>
+          <button id="btn">convert</button>
+          <input type="reset" />
+        </form>
+      </div>
+      <div class="table-container">
+        <table id="table" border="1" rules="all" cellpadding="10px"></table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
